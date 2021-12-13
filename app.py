@@ -6,12 +6,15 @@ pickle_in = open(MODEL_FILE, 'rb')
 classifier = pickle.load(pickle_in)
 
 st.set_page_config(
-    page_title="Klasifikasi Kualitas Udara - Arya Pangestu",
+    page_title="Klasifikasi Kualitas Udara - Kelompok 7",
     page_icon="7️⃣"
 )
 
-st.write("# Klasifikasi Kualitas Udara")
-st.markdown('By Arya Pangestu')
+st.title("Klasifikasi Kualitas Udara")
+st.markdown('By kelompok 7:
+            1. Arya Pangestu
+            2. Husni Fadhilah Dhiya Ul Haq
+            3. Muhammad Hanief')
 
 st.write("Kualitas udara sekarang:")
 
