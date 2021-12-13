@@ -11,10 +11,10 @@ st.set_page_config(
 )
 
 st.title("Klasifikasi Kualitas Udara")
-st.markdown('By kelompok 7:
-            1. Arya Pangestu
-            2. Husni Fadhilah Dhiya Ul Haq
-            3. Muhammad Hanief')
+st.markdown('By kelompok 7:')
+st.markdown("1. Arya Pangestu")
+st.markdown("2. Husni Fadhilah Dhiya Ul Haq")
+st.markdown("3. Muhammad Hanief")
 
 st.write("Kualitas udara sekarang:")
 
